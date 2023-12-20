@@ -1,12 +1,11 @@
-import logo from './logo.svg';
-import './App.css';
 
-function App() {
+import './main.css';
+
+function main() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
+    <div className="background-container">
+      <header className='header-container'>
+        <p className='first-text'>
           hello, this is my app
         </p>
         <a
@@ -22,4 +21,4 @@ function App() {
   );
 }
 
-export default App;
+export default main;
