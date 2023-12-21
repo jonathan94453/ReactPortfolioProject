@@ -2,7 +2,7 @@ import "./index.scss"
 
 const Sidebar = () => (
 <header>
-    hello
+   Jonathan
 </header>
 ); 
    

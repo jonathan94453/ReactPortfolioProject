@@ -1,8 +1,19 @@
+import React from 'react';
+import { Link } from 'react-router-dom'
 import './index.scss';   
 
-const Layout = () => {
-    return <>
-    Hello
-    </>
-}
+const Layout = ({ children }) => {
+   
+    return (
+    <div>
+        <nav>
+            <ul>
+                <li><Link to= "/">Home</Link></li>
+                <li><Link to="/Home">About me</Link></li>
+            </ul>
+        </nav>
+        <div>{children}</div>
+ </div>
+    ); 
+}; 
 export default Layout 
