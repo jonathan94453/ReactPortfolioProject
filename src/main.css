@@ -39,7 +39,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #000000; 
+  background-color: #03738f; 
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -53,6 +53,6 @@ body {
 
 .first-text {
   font-size: 80px;
-  color: white; 
+  color: rgb(10, 3, 3); 
 }
 

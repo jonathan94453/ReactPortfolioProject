@@ -1,24 +1,17 @@
 
+
 import './main.css';
+import {Routes, Route } from 'react-router-dom'; 
+import Layout from './components/Layout'; 
 
-function main() {
-  return (
-    <div className="background-container">
-      <header className='header-container'>
-        <p className='first-text'>
-          hello, this is my app
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+function Main() {
+return (
+  <>
+    <Routes> 
+      <Route path= "/" element={<Layout />} />
+    </Routes>
+  
+    </>
+  )
 }
-
-export default main;
+export default Main;
