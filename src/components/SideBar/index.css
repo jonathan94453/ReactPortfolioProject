@@ -1,0 +1,29 @@
+.sidebar {
+  background: #E27D60;
+  width: 200px;
+  min-height: 100vh;
+  z-index: 3;
+}
+.img {
+    width: 200px; /* Adjust the width as needed */
+    height: 200px; /* Maintain aspect ratio */
+    display: block; /* Ensures the image is treated as a block element */
+    margin-left: auto; /* Align to the left */
+    margin-right: auto;
+}
+.maincontent {
+    flex: 1;
+    padding: 20px;
+    background-image: url('C:\Users\cinoc\my-react-app\src\components\SideBar\Background.jpg');
+    background-size: cover; /* This property ensures that the background image covers the entire container */
+    background-position: center; /* This property centers the background image */
+    background-repeat: no-repeat; /* This property prevents the background image from repeating */
+    height: 100vh; ;
+    filter: blur(5px); 
+    text-align: left;
+    font-size: 99px; 
+    font-family: 'Times New Roman', serif;
+}
+.container {
+    display: flex; 
+} 

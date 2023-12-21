@@ -4,7 +4,7 @@ const Home = () => (
    
     <div>
         <h2 className='Border-Code'> Home </h2>
-        <button>Click to Learn about me</button>
+        <button>Click here!</button>
     </div>
 ); 
 export default Home 
