@@ -1,7 +1,7 @@
 
 const Accomplishments = () => {
     <div className='div1'>
-        Good Morning
+        <h>Good Morning</h>
     </div>
 }
 export default Accomplishments
