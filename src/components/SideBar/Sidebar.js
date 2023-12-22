@@ -8,7 +8,7 @@ const Sidebar = () => (
 
 
 <div className="sidebar">
-<Link className="logo" to="/About"> 
+<Link className="logo" to="/"> 
 <img className='img' src={Logo} alt="Logo" />
 </Link> 
 <Link to="/About">
@@ -16,6 +16,9 @@ const Sidebar = () => (
 </Link>
 <Link to="/Accomplishments">
 <button className="accomplishments">Accomplishments</button>
+</Link>
+<Link to="/Record">
+<button className="accomplishments">Academic Record</button> 
 </Link>
 
 </div> 
@@ -26,7 +29,8 @@ const Sidebar = () => (
 
 <div className="maincontent">
 <div className="heading">
-<p>Hi. I'm Jonathan</p>
+<h>Hi. I'm Jonathan</h>
+<p className="introtext">I am 18 years old, and pursuing my education degree at Missouri Univeristy of Science and Technology in Rolla. This is who I am</p>
 </div>
 </div>
 

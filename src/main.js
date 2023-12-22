@@ -2,16 +2,17 @@
 
 import './main.css';
 import {Routes, Route } from 'react-router-dom'; 
-import Home from './components/Home/Home'; 
+import About from './components/About Me/AboutMe'; 
 import Sidebar from './components/SideBar/Sidebar';
-import Layout from './components/Layout/index'
+import Accomplishments from './components/Accomplishments/Accomplishments';
 function Main() {
 return (
   <>
     <Routes> 
       <Route path= "/" element={<Sidebar />} />
-      <Route path = "/About" element={<Home />} /> 
-      <Route path = "/Accomplishments" element={<Layout/>} />
+      <Route path = "/About" element={<About />} /> 
+      <Route path = "/Accomplishments" element={<Accomplishments/>} />
+      <Route path = "/Record" element={<Accomplishments/>} /> 
     </Routes>
   
     </>
