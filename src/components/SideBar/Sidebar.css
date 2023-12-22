@@ -1,6 +1,6 @@
 .sidebar {
   background: #E27D60;
-  width: 200px;
+  width: 450px;
   min-height: 100vh;
   z-index: 3;
 }
@@ -14,16 +14,40 @@
 .maincontent {
     flex: 1;
     padding: 20px;
-    background-image: url('C:\Users\cinoc\my-react-app\src\components\SideBar\Background.jpg');
+    background-color: black;
     background-size: cover; /* This property ensures that the background image covers the entire container */
     background-position: center; /* This property centers the background image */
     background-repeat: no-repeat; /* This property prevents the background image from repeating */
     height: 100vh; ;
-    filter: blur(5px); 
-    text-align: left;
-    font-size: 99px; 
-    font-family: 'Times New Roman', serif;
+    
+    
+}
+.heading {
+  top: -180px;
+  position: relative;
+  font-family: 'Ubuntu Mono', monospace;
+  font-size: 200px;
+  color: white;
+  text-align: left;
+  
 }
 .container {
+    position: relative;
     display: flex; 
 } 
+.background-container {
+    position: relative;
+    height: 100vh;
+  }
+  .aboutme {
+background:    #e27d60;
+font-size: 50px;
+border: 2px solid #e27d60;
+font-family : 'Ubuntu Mono', monospace; 
+  }
+.accomplishments {
+background:    #e27d60;
+font-size: 50px;
+border: 2px solid #e27d60;
+font-family : 'Ubuntu Mono', monospace; 
+}
