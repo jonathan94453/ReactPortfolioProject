@@ -1,7 +1,8 @@
-
-const Accomplishments = () => {
-    <div className='div1'>
-        <h>Good Morning</h>
+import React from 'react';
+import './Accomplishments.css'
+const Accomplishments = () => (
+    <div className='container'>
+        <h className='heading'>Accomplishments</h>
     </div>
-}
-export default Accomplishments
+);
+export default Accomplishments 

@@ -1,4 +1,16 @@
-.div1 {
-    color: black; 
+.container {
+  
+    justify-content: center; 
+    align-items: center;
+}
+.heading {
+    color: white; 
     font-size: 90px;
+    
+} 
+body {
+    margin: 0; 
+    padding: 0; 
+    background-color: black;
+    
 }

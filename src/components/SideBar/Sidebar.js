@@ -30,7 +30,7 @@ const Sidebar = () => (
 <div className="maincontent">
 <div className="heading">
 <h>Hi. I'm Jonathan</h>
-<p className="introtext">I am 18 years old, and pursuing my education degree at Missouri Univeristy of Science and Technology in Rolla. This is who I am</p>
+<p className="introtext">I am 18 years old, and pursuing my education degree at Missouri University of Science and Technology in Rolla. This is who I am</p>
 </div>
 </div>
 
