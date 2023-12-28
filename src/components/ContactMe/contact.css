@@ -1,0 +1,28 @@
+.contact-container {
+    background-color: goldenrod; 
+    height: 100vh;
+    text-align: center;
+    padding-top: 80px;
+   
+} 
+
+.headingtext { 
+position: relative;
+font-size: 140px;
+line-height: 1; 
+color: white;
+right: 340px;
+}
+.instagram {
+    position: relative;
+    width: 200px;
+    height: auto;
+    bottom: 450px;
+    left: 370px;
+} 
+.MoreContact {
+    font-size: 40px;
+    position: relative; 
+    left: 350px; 
+    bottom: 530px;
+}
