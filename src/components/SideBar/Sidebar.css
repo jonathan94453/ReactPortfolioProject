@@ -1,7 +1,8 @@
+
 .sidebar {
   background: #E27D60;
   width: 450px;
-  min-height: 105vh;
+  min-height: 200vh;
   z-index: 3;
 }
 .img {
@@ -18,7 +19,7 @@
     background-size: cover; /* This property ensures that the background image covers the entire container */
     background-position: center; /* This property centers the background image */
     background-repeat: no-repeat; /* This property prevents the background image from repeating */
-    height: 100vh; ;
+    min-height: 200vh; ;
     
     
 }
@@ -31,7 +32,8 @@
   text-align: left;
   
 }
-.container {
+.sidebar-container {
+  background-color: black;
     position: relative;
     display: flex; 
  
@@ -56,4 +58,13 @@ font-family : 'Ubuntu Mono', monospace;
 .introtext {
   font-size: 50px; 
   color: white;
+}
+
+.instagram {
+  margin-bottom: 10px; 
+  margin-top: 10px;
+  margin-right: 40px;
+  padding: 40px;
+  height: auto; 
+  width: 80px;
 }

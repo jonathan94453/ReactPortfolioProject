@@ -1,10 +1,23 @@
 .text {
-    font-size: 90px;
-    color: white;
+    font-size: 100px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(15, 14, 14);
+    margin-bottom: 10px;
+    text-align: center;
+    
 }
-.fullbackground {
-    background-color: black;
-    background-size: cover; /* This property ensures that the background image covers the entire container */
-    background-position: center; /* This property centers the background image */
-    background-repeat: no-repeat;  
+.container {
+    text-align: center;
+    padding: 20px;
+    
+}
+.content {
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+}
+.aboutme-container {
+    margin: 0;
+    background-color: rgb(3, 167, 153); 
+    height: 100vh;
 }
