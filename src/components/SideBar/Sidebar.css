@@ -1,7 +1,7 @@
 .sidebar {
   background: #E27D60;
   width: 450px;
-  min-height: 100vh;
+  min-height: 105vh;
   z-index: 3;
 }
 .img {
@@ -23,7 +23,7 @@
     
 }
 .heading {
-  top: -30px;
+  top: -20px;
   position: relative;
   font-family: 'Ubuntu Mono', monospace;
   font-size: 200px;

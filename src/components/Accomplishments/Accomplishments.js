@@ -2,7 +2,7 @@ import React from 'react';
 import './Accomplishments.css'
 const Accomplishments = () => (
     <div className='container'>
-        <h className='heading'>Accomplishments</h>
+        <h>Accomplishments</h>
     </div>
 );
 export default Accomplishments 
