@@ -30,9 +30,9 @@ const Sidebar = () => (
 
 <div className="maincontent">
 <div className="heading">
-<h>Hi. I'm Jonathan</h>
+<h>Hi I'm Jonathan</h>
 <p className="introtext">
-I am 18 years old, and pursuing my education degree at Missouri University of Science and Technology in Rolla. <br/>
+I am 18 years old, and pursuing my Aerospace Engineering degree at Missouri University of Science and Technology in Rolla. <br/>
 
 </p>
 </div>
