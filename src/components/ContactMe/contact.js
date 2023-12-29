@@ -12,7 +12,6 @@ Me
 <p className="MoreContact">
 <Link to="https://www.linkedin.com/in/jonathan-cino-43461b246/">Linkedin</Link> <br/>
 <Link to="mailto:cino.jonathan@gmail.com">cino.jonathan@gmail.com</Link> <br/>
-
 </p>
 
 

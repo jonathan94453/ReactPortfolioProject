@@ -1,0 +1,16 @@
+/* Div Container */ 
+
+.record-container {
+    background-color: rgba(81, 9, 181, 0.48); 
+    height: 100vh; 
+    padding: 80px; 
+    text-align: center;
+}  
+
+.record-heading1 {
+position: relative; 
+font-size: 120px; 
+font-family: 'Times New Roman', Times, serif; 
+color: rgb(6, 6, 66); 
+bottom: 130px; 
+} 

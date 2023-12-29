@@ -1,10 +1,28 @@
-.container {
-  
-    justify-content: center; 
-    align-items: center;
-}
-.heading {
-    color: white; 
-    font-size: 90px;
-    
+.accomplishments-container {
+    background-color: burlywood;
+    height: 100vh;
+    padding: 80px;
 } 
+.accomplishments-heading1 {
+    font-size: 80px;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    color: brown;
+    position: relative; 
+    left: 250px; 
+    bottom: 80px;
+} 
+.accomplishments-heading2 {
+    position: relative; 
+    font-family: 'Times New Roman', Times, serif; 
+    font-size: 50px; 
+    color: maroon; 
+    bottom: 80px;
+}
+.roboticsp1 {
+    position: relative; 
+    font-family: 'Times New Roman', Times, serif; 
+    font-size: 30px; 
+    color: teal; 
+    bottom: 99px;
+    
+}
