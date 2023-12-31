@@ -14,3 +14,19 @@ font-family: 'Times New Roman', Times, serif;
 color: rgb(6, 6, 66); 
 bottom: 130px; 
 } 
+
+.record-heading2 {
+    position: relative;  
+    font-family: 'Times New Roman', Times, serif; 
+    font-size: 60px; 
+    right: 460px; 
+    bottom: 230px;
+} 
+
+.recordp1 {
+    position: relative; 
+    color: black; 
+    font-size: 25px;
+    right: 450px; 
+    bottom: 240px;
+}

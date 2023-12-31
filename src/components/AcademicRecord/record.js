@@ -7,12 +7,16 @@ const record = () => (
 <h1 className='record-heading1'>Academics</h1> 
 {/* p1, LHS record component */}
 
-<p1 className='recordp1'>
+<h2 className='record-heading2'>
 LHS
+</h2>
+
+<p1 class='recordp1'>
+-4.04 Cumalative GPA <br/>
+-Honor Roll all 4 years  <br/> 
+-Finished with 30 Dual College Credits <br/> 
 </p1>
-
-
-
+ 
 
 
 
