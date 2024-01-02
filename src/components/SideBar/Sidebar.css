@@ -4,6 +4,8 @@
   width: 450px;
   min-height: 200vh;
   z-index: 3;
+  opacity: 0;  /* Start with opacity 0 */
+  transition: left 0.3s ease, opacity 0.6s ease;
 }
 .img {
     width: 200px; /* Adjust the width as needed */
@@ -20,9 +22,24 @@
     background-position: center; /* This property centers the background image */
     background-repeat: no-repeat; /* This property prevents the background image from repeating */
     min-height: 300vh; ;
-    
+    transition: right 0.6s ease;
+  position: relative; 
+  right: 400px;
     
 }
+.maincontent.visible {
+  flex: 1;
+    padding: 20px;
+    background-color: black;
+    background-size: cover; /* This property ensures that the background image covers the entire container */
+    background-position: center; /* This property centers the background image */
+    background-repeat: no-repeat; /* This property prevents the background image from repeating */
+    min-height: 300vh; ;
+   position: relative; 
+   transition: left 1s ease;
+   left: 50px;
+} 
+
 .heading {
   top: -20px;
   position: relative;
@@ -60,11 +77,9 @@ font-family : 'Ubuntu Mono', monospace;
   color: white;
 }
 
-.instagram {
-  margin-bottom: 10px; 
-  margin-top: 10px;
-  margin-right: 40px;
-  padding: 40px;
-  height: auto; 
-  width: 80px;
+
+
+.sidebar.visible {
+  left: 0; 
+  opacity: 1;
 }
