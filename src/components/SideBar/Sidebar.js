@@ -35,8 +35,7 @@ return (
 <Link to="/Accomplishments">
 <button className="accomplishments">Accomplishments</button>
 </Link>
-<Link to="/AcRecord">
-<button className="accomplishments">Academic Record</button> 
+<Link to="/AcRecord"><button className="accomplishments">Academic Record</button> 
 </Link>
 <Link to="/ContactMe">
 <button className="accomplishments">Contact Me</button> 
